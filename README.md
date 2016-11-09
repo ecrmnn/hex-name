@@ -28,5 +28,8 @@ hexName('some_random_package_name')
   });
 ```
 
+### Related
+- [hex-name-cli](https://github.com/ecrmnn/hex-name-cli) - CLI for this module
+
 ### License
 MIT © [Daniel Eckermann](http://danieleckermann.com)
