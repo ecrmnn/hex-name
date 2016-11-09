@@ -1,0 +1,37 @@
+{
+  "name": "hex-name",
+  "version": "1.0.0",
+  "description": "Check if a package name is available on Hex.pm",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecrmnn/hex-name"
+  },
+  "keywords": [
+    "hex",
+    "hex.pm",
+    "api",
+    "check",
+    "package"
+  ],
+  "author": {
+    "name": "Daniel Eckermann",
+    "email": "danieleckermann@gmail.com",
+    "url": "http://danieleckermann.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecrmnn/hex-name/issues"
+  },
+  "homepage": "https://github.com/ecrmnn/hex-name",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "axios": "^0.15.2"
+  }
+}
